@@ -4,7 +4,6 @@ FROM python:3.10-slim-buster
 USER root
 
 WORKDIR /src
-# WORKDIR /usr/src/app
 
 COPY ./requirements.txt requirements.txt
 
